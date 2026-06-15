@@ -501,9 +501,13 @@ predict 是考试。
 
 第一天遇到的问题：
 predictor = HousePricePredictor()这样的写法类似于变量（对象）的定义
+
 ![alt text](image.png)
+
 这个预测值是怎么预测出来的
+
 首先：它属于线性回归
+
 LinearRegression()
 所以它遵循
 𝑦=𝑤1𝑥1+𝑤2𝑥2+𝑤3𝑥3+𝑏
