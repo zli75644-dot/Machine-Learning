@@ -502,7 +502,13 @@ predict 是考试。
 第一天遇到的问题：
 predictor = HousePricePredictor()这样的写法类似于变量（对象）的定义
 
+
 ![alt text](image.png)
+
+
+
+
+
 
 这个预测值是怎么预测出来的
 
