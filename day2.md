@@ -355,7 +355,8 @@ X = np.array([
 pandas 主要用来处理表格数据。
 
 例如：
-
+ 
+ 
 self.df = pd.DataFrame(self.X, columns=self.feature_names)
 
 这句话的作用是：
