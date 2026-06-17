@@ -727,3 +727,7 @@ y_pred = model.predict(X_test)
 用模型预测新数据。
 
 代码中存在问题的地方：
+为什么用self.df
+为什么用prediction_price = self.model.predict(new_house)[0]
+self.df就理解为提前声明类成员变量，后续用来被pd.DataFrame使用，这样整个类的所有方法都能访问这个 DataFrame。
+ self.model.predict(new_house)[0]表示访问数组的第一个元素，不然返回的是array[值]（这是一个numpy数组）
