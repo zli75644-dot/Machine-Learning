@@ -710,6 +710,7 @@ predict_single_house(area=85, room_count=2, floor=9)
 
 你现在应该能看懂：
 
+
 model = LinearRegression()
 model.fit(X_train, y_train)
 
