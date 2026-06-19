@@ -718,7 +718,6 @@ print(model.coef_)
 print(model.intercept_)
 
 y_pred = model.predict(X_test)
-
 这几行代码背后的含义：
 
 创建线性回归模型；
